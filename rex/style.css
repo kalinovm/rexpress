@@ -1,0 +1,258 @@
+
+h4 {
+    text-align: center;
+    font-size: 33px;
+    margin: 20px 0;
+}
+.administracija .prijavi {
+    margin-bottom: 50px!important;
+}
+
+.rexpress-text-a {
+    background-color: #fcd039;
+    border-radius: 5px;
+    text-align: center;
+    color: #000;
+    padding: 10px 15px;
+    margin: 0 15px;
+}
+.rexpress-text-as {
+    background-color: #fcd039;
+    border-radius: 5px;
+    text-align: center;
+    color: #000;
+    padding: 10px 15px;
+    margin: 0 15px;
+    width: 20%;
+    margin: auto;
+}
+.rexpress-text-a:hover {
+    background-color: #d0ab6d;
+    border-radius: 5px;
+    text-align: center;
+    color: #000;
+    padding: 10px 15px;
+    margin: 0 15px;
+    width: 20%;
+    margin: auto;
+}
+.rexpress-text-as:hover {
+    background-color: #d0ab6d;
+    border-radius: 5px;
+    text-align: center;
+    color: #000;
+    padding: 10px 15px;
+    margin: 0 15px;
+    width: 20%;
+    margin: auto;
+
+}
+
+.rexpress-text-a a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.rexpress-text-as a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+
+/* Style the buttons inside the tab */
+.tab1 button {
+    background-color: #320001;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 21px;
+    
+    color: #fcd039;
+}
+.tab1.podrske button {
+    background-color: #fff;
+    float: left;
+    border: 1px solid #d0ab6d;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 15px;
+    width: 19%!important;
+    color: #d0ab6d;
+        margin: 0 5px;
+}
+/* Change background color of buttons on hover */
+.tab1 button:hover {
+  background-color: #fcd039;
+  color: #320001;
+}
+.tab1.podrske button:hover {
+     background-color: #320001;
+    color: #d0ab6d;
+}
+/* Create an active/current tablink class */
+.tab1 button.active {
+    background-color: #fcd039;
+    color: #320001;
+}
+.tab1.podrske button.active {
+       background-color: #320001;
+    color: #d0ab6d;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 0px;
+    
+    border-top: none;
+    width: 100%;
+}
+
+th.third {
+    background-color: #fcd039;
+    /* padding-right: 0; */
+    width: 33.33%;
+}
+th.thirde {
+    background-color: #fcd039;
+    /* padding-right: 0; */
+    width: 35%;
+}
+th.thirdes {
+    background-color: #fcd039;
+    /* padding-right: 0; */
+    width: 10%;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #320001;
+}
+.topright:hover {color: red;}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #320001;
+}
+
+
+
+.prijavi input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 3px;
+  margin-bottom: 16px;
+  resize: vertical;
+      background: #ebebeb;
+}
+
+.prijavi label {
+    display: inline-block;
+    margin-bottom: .1rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+.prijavi {
+    width: 50%;
+    margin: auto;
+}
+
+.prijavi input[type="submit"] {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #fcd039;
+    border: none;
+    color: #320001;
+    font-weight: bold;
+    font-size: 17px;
+}
+.prijavi input[type="submit"]:hover{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #320001;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 991px) {
+
+.pb-5, .py-5 {
+     padding-bottom:8px!important; 
+}
+.pt-5, .py-5 {
+    padding-top: 8px!important;
+}
+.rexpress-text-a a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.rexpress-text-as a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+}
+
+@media only screen and (max-width: 580px){
+
+.rexpress-text-a a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.rexpress-text-as a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%
+}
+.rexpress-text-as{
+    width: 100%
+}
+.rexpress-text-as:hover{
+    width: 100%
+}
+
+.pt-5, .py-5 {
+    padding-top: 36px!important;
+}
+
+.input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control, .input-group>.form-control-plaintext {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 100%;
+    min-width: 0;
+    margin-bottom: 0;
+}
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: block;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+}
